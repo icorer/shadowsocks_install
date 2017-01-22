@@ -31,6 +31,23 @@ shadowsocksR.sh
 - Description: Auto Install ShadowsocksR Server for CentOS/Debian/Ubuntu
 - Intro: https://shadowsocks.be/9.html
 
+> 使用命令：
+
+|    状态       |  命令  |
+| ------------- |:-------------:| 
+| 启动 | /etc/init.d/shadowsocks start |
+| 停止 | /etc/init.d/shadowsocks stop  |
+| 重启 | /etc/init.d/shadowsocks restart   |
+| 状态 | /etc/init.d/shadowsocks status    |
+
+> 配置文件路径：
+
+|    名称       |  绝对路径  |
+| ------------- |:-------------:| 
+| 配置文件 | /etc/shadowsocks.json |
+| 日志文件 | /var/log/shadowsocks.log |
+| 代码存储 | /usr/local/shadowsocks  |
+
 shadowsocks-all.sh
 ==================
 - Description: Auto Install Shadowsocks Server (all version) for CentOS/Debian/Ubuntu
